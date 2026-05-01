@@ -1,0 +1,29 @@
+# --- ENTORNOS VIRTUALES ---
+venv/
+env/
+ENV/
+.env/
+build/
+dist/
+
+# --- PYTHON (Archivos temporales y compilados) ---
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- ARCHIVOS DE SISTEMA / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- VARIABLES DE ENTORNO ---
+.env
+
+# --- BACKUPS Y TEMPORALES ---
+*.bak
+*.tmp
+*.swp
